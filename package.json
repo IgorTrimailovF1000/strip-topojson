@@ -1,0 +1,12 @@
+{
+  "name": "strip-topo-json",
+  "version": "1.0.0",
+  "description": "Utility to strip unwanted parameters from topojson",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Igor Trimailov",
+  "license": "ISC",
+  "dependencies": {}
+}
