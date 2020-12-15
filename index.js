@@ -68,7 +68,6 @@ fs.readFile('./src/countries_110m.json', function (err, data) {
 		} catch (err) {
 			console.log('Could not assemble result', err);
 		}
-		console.log(iso3s);
 	} catch (err) {
 		console.log('Could not read source file', err);
 	}
