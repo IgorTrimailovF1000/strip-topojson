@@ -3,10 +3,11 @@ Small utility app that strips away geography keys from a topojson object to redi
 
 ---
 ## installation
-npm i
+
+`npm install`
 
 ## running
-npm index.js
+`npm index.js`
 
 ## custom map
  The topojson source object is included in this app, but if you need a more detailed or even less detailed, you can follow these steps:
@@ -20,7 +21,7 @@ npm index.js
 - export map as TopoJSON
 - exported map will be in dist/ folder
 
-# config
+## config
 At the moment we only care about these NAME and ISO_A3 properties, if more are needed, they can be added to the whitelist.
 
 ```js 
